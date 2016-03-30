@@ -6,7 +6,7 @@ public class ThirdHomework {
 
 	public static void main(String[] args) {
 		calculate();
-		expecttip();
+		expectTip();
 	}
 
 	public static void calculate() {
@@ -44,7 +44,7 @@ public class ThirdHomework {
 		}
 	}
 
-	public static void expecttip() {
+	public static void expectTip() {
 		System.out.println("***Tips!***");
 		Scanner sc = new Scanner(System.in);
 		double sum, tips;

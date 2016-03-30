@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class ThirdHomework {
 
 	public static void main(String[] args) {
-		Calculator();
-		Tips();
+		calculate();
+		expecttip();
 	}
 
-	public static void Calculator() {
+	public static void calculate() {
 		System.out.println("***Calculator!***");
 		Scanner sc = new Scanner(System.in);
 		double a, b;
@@ -44,7 +44,7 @@ public class ThirdHomework {
 		}
 	}
 
-	public static void Tips() {
+	public static void expecttip() {
 		System.out.println("***Tips!***");
 		Scanner sc = new Scanner(System.in);
 		double sum, tips;
